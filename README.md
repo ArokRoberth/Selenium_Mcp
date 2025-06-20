@@ -1,16 +1,12 @@
 # MCP Selenium
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.abarrac/mcp-selenium.svg)](https://search.maven.org/artifact/io.github.abarrac/mcp-selenium)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Java-11%2B-orange.svg)](https://openjdk.java.net/)
-
 > The professional-grade Selenium WebDriver MCP server for AI agents and automation tools.
 
 MCP Selenium provides a comprehensive Model Context Protocol (MCP) implementation for browser automation, making it
 effortless for **any AI agent or automation tool** to interact with web applications. Built with enterprise-grade
 reliability and performance in mind.
 
-## 📍 Prerequisites
+## Prerequisites
 
 Before installing MCP Selenium, ensure you have:
 
@@ -31,7 +27,7 @@ google-chrome --version  # Linux
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --version  # macOS
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### For Claude Desktop Users
 
@@ -44,7 +40,7 @@ google-chrome --version  # Linux
 
 For detailed installation options, see [Configuration](#-configuration).
 
-## 🧠 What is MCP?
+## What is MCP?
 
 The **Model Context Protocol (MCP)** is an open standard for connecting AI agents with external tools and data sources.
 Think of it as a universal API that allows AI systems to:
@@ -57,7 +53,7 @@ Think of it as a universal API that allows AI systems to:
 MCP Selenium implements this standard specifically for **web browser automation**, making it the bridge between AI
 agents and the web.
 
-## ✨ Features
+## Features
 
 - **🔄 Intelligent Element Waiting** - Smart waits with configurable timeouts
 - **📸 Advanced Screenshots** - Viewport, element-specific, and full-page capture
@@ -84,7 +80,7 @@ MCP Selenium Core
     └── ScriptHandler - JavaScript execution
 ```
 
-## 🎯 Supported Tools
+## Supported Tools
 
 ### Browser Control
 
@@ -256,7 +252,7 @@ For other MCP-compatible tools, use the standard MCP server configuration:
 - `SELENIUM_TIMEOUT=30` - Set default timeout (seconds)
 - `SELENIUM_BROWSER=chrome` - Browser choice (chrome/firefox)
 
-## 🌍 Selector Types
+## Selector Types
 
 MCP Selenium supports all major selector strategies:
 
@@ -269,16 +265,12 @@ MCP Selenium supports all major selector strategies:
 | Class | `class=value` | `class=btn-primary`            |
 | Tag   | `tag=value`   | `tag=button`                   |
 
-## 📋 Requirements
+## Requirements
 
 - **Java**: 11 or higher
 - **Browser**: Chrome
 - **Memory**: 512MB RAM minimum
 - **OS**: Windows, macOS, Linux
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ### Development Setup
 
@@ -298,7 +290,7 @@ mvn test
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Selenium WebDriver](https://selenium.dev/) - The foundation of web automation
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Standardizing AI tool interactions
@@ -306,5 +298,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ Star this repository if MCP Selenium helps you build amazing automation!**
 </div>

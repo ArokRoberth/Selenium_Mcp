@@ -1,16 +1,12 @@
 # MCP Selenium
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.abarrac/mcp-selenium.svg)](https://search.maven.org/artifact/io.github.abarrac/mcp-selenium)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Java-11%2B-orange.svg)](https://openjdk.java.net/)
-
 > El servidor MCP de Selenium WebDriver de nivel profesional para agentes de IA y herramientas de automatización.
 
 MCP Selenium proporciona una implementación completa del Protocolo de Contexto de Modelo (MCP) para automatización de
 navegadores, haciendo que sea muy fácil para **cualquier agente de IA o herramienta de automatización** interactuar con
 aplicaciones web. Construido pensando en la fiabilidad y el rendimiento de nivel empresarial.
 
-## 📍 Requisitos Previos
+## Requisitos Previos
 
 Antes de instalar MCP Selenium, asegúrate de tener:
 
@@ -31,7 +27,7 @@ google-chrome --version  # Linux
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --version  # macOS
 ```
 
-## 🚀 Inicio Rápido
+## Inicio Rápido
 
 ### Para Usuarios de Claude Desktop
 
@@ -43,7 +39,7 @@ google-chrome --version  # Linux
 3. **Probar:** Pregunta a Claude "utilizando las herramientas de selenium MCP, navega a google.com y toma una captura de
    pantalla"
 
-## 🧠 ¿Qué es MCP?
+## ¿Qué es MCP?
 
 El **Protocolo de Contexto de Modelo (MCP)** es un estándar abierto para conectar agentes de IA con herramientas y
 fuentes de datos externas. Piénsalo como una API universal que permite a los sistemas de IA:
@@ -56,7 +52,7 @@ fuentes de datos externas. Piénsalo como una API universal que permite a los si
 MCP Selenium implementa este estándar específicamente para **automatización de navegadores web**, convirtiéndose en el
 puente entre agentes de IA y la web.
 
-## ✨ Características
+## Características
 
 - **🔄 Espera Inteligente de Elementos** - Esperas inteligentes con tiempos de espera configurables
 - **📸 Capturas Avanzadas** - Capturas de viewport, elementos específicos y página completa
@@ -83,7 +79,7 @@ MCP Selenium Core
     └── ScriptHandler - Ejecución de JavaScript
 ```
 
-## 🎯 Herramientas Soportadas
+## Herramientas Soportadas
 
 ### Control del Navegador
 
@@ -210,7 +206,7 @@ Abre Claude Desktop y prueba preguntando:
 "Toma una captura de pantalla de google.com utilizando las herramientas de selenium MCP"
 ```
 
-¡Si ves que la automatización del navegador está funcionando, ya está todo listo! 🎉
+¡Si ves que la automatización del navegador está funcionando, ya está todo listo!
 
 ### Solución de Problemas
 
@@ -270,7 +266,7 @@ MCP Selenium soporta todas las estrategias principales de selectores:
 | Class | `class=value` | `class=btn-primary`            |
 | Tag   | `tag=value`   | `tag=button`                   |
 
-## 📋 Requisitos
+## Requisitos
 
 - **Java**: 11 o superior
 - **Navegador**: Chrome
@@ -288,14 +284,14 @@ mvn clean install
 ### Ejecutar Pruebas
 
 ```bash
-mvn test
+ mvn test
 ```
 
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## 🙏 Referencias
+## Referencias
 
 - [Selenium WebDriver](https://selenium.dev/) - La base de la automatización web
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Estandarizando las interacciones de herramientas de IA
@@ -305,5 +301,5 @@ Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICEN
 
 <div align="center">
 
-**⭐ Dale una estrella a este repositorio si MCP Selenium te ayuda a crear automatizaciones increíbles!**
+
 </div>
